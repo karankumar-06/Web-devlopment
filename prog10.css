@@ -1,0 +1,15 @@
+.p1 {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: darkblue;
+  background-color: lightyellow;
+  padding: 10px;
+}
+.p2 {
+  font-family: "Times New Roman", serif;
+  font-size: 20px;
+  color: green;
+  background-color: #f0f0f0;
+  border-left: 5px solid orange;
+  padding: 10px;
+}

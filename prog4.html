@@ -1,21 +1,30 @@
-<!--Develop HTML page to demonstrate different heading from smaller to bigger and vice versa-->
+<!--Write a program to display use of different selectors in CSS.-->
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <title>size types</title>
+    <title>CSS Selectors Example</title>
+    <style>
+        h1 {
+            color: blue;
+        }
+        .highlight {
+            color: red;
+            font-weight: bold;
+        }
+        #special {
+            color: green;
+            font-style: italic;
+        }
+        h2, p {
+            color: purple;
+        }
+    </style>
 </head>
 <body>
-    <h1>this is h1 tag</h1>
-    <h2>this is h2 tag</h2>
-    <h3>this is h3 tag</h3>
-    <h4>this is h4 tag</h4>
-    <h5>this is h5 tag</h5>
-    <h6>this is h6 tag</h6>
-    <h6>this is h6 tag</h6>
-    <h5>this is h5 tag</h5>
-    <h4>this is h4 tag</h4>
-    <h3>this is h3 tag</h3>
-    <h2>this is h2 tag</h2>
-    <h1>this is h1 tag</h1>
+    <h1>This is styled using an element selector (h1).</h1>
+    <h2>This is styled using a group selector (h2, p).</h2>
+    <p>This paragraph is styled using a group selector (h2, p).</p>
+    <p class="highlight">This paragraph uses a class selector (.highlight).</p>
+    <p id="special">This paragraph uses an ID selector (#special).</p>
 </body>
 </html>
